@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "packs": [
+    {
+      "id": "en_familia_mx",
+      "intensity": 1,
+      "file": "en_familia_mx.json",
+      "title": "En Familia",
+      "description": "Dichos, famosos, comida y cultura. Para jugar con todos, hasta con la abuela.",
+      "region": "mx",
+      "emoji": "🏠",
+      "free": true,
+      "status": "available"
+    },
+    {
+      "id": "en_confianza_mx",
+      "intensity": 2,
+      "file": "en_confianza_mx.json",
+      "title": "En Confianza",
+      "description": "Ya entrados en confianza: crudas, suegras, exes y uno que otro albur.",
+      "region": "mx",
+      "emoji": "🍻",
+      "free": true,
+      "status": "available"
+    },
+    {
+      "id": "sin_madre_mx",
+      "intensity": 3,
+      "file": "sin_madre_mx.json",
+      "title": "Sin Madre",
+      "description": "Sin nadie que te juzgue. Lenguaje muy fuerte, no apto para la comida del domingo.",
+      "region": "mx",
+      "emoji": "💀",
+      "free": true,
+      "status": "available"
+    },
+    {
+      "id": "musica_artistas_mx",
+      "intensity": 1,
+      "file": null,
+      "title": "Música y Artistas",
+      "description": "Cantantes, bandas, canciones y todo lo que suena.",
+      "region": "mx",
+      "emoji": "🎤",
+      "free": false,
+      "status": "soon"
+    },
+    {
+      "id": "whitexican",
+      "intensity": 1,
+      "file": null,
+      "title": "Whitexican",
+      "description": "Para los que dicen 'o sea' y pasan el finde en Valle.",
+      "region": "mx",
+      "emoji": "🥑",
+      "free": false,
+      "status": "soon"
+    },
+    {
+      "id": "en_familia_es",
+      "intensity": 1,
+      "file": null,
+      "title": "En Familia · España",
+      "description": "La misma mezcla, pero para jugar con la familia de España.",
+      "region": "es",
+      "emoji": "🇪🇸",
+      "free": false,
+      "status": "soon"
+    }
+  ]
+}

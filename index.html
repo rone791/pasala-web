@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/pasala-web/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Juego de fiesta para adivinar frases en español.">
+
+  <!-- The phone is passed from hand to hand mid-round, so a stray double tap
+       must not zoom the page and a drag must not bounce it around. Flutter
+       handles its own gestures; the browser's are only ever in the way. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,
+        maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <!-- "black", not "black-translucent". Translucent draws the page underneath
+       the status bar, which on a notched iPhone held sideways would put the
+       notch straight through the pack button in the corner. Reserving the
+       strip costs a few pixels and cannot go wrong. -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Pásala">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>Pásala</title>
+  <link rel="manifest" href="manifest.json">
+
+  <style>
+    /* Matches calmBackground in lib/game/tempo.dart, so the page behind the
+       canvas never flashes white before Flutter paints. */
+    html, body { margin: 0; padding: 0; height: 100%; background: #15102B; }
+    body { overscroll-behavior: none; }
+
+    /* The game pauses on a long press, and a long press is also how a phone
+       browser opens its own copy-and-look-up callout. When that callout won
+       instead, it appeared over the pause menu and swallowed every touch after
+       it - the game looked frozen and only a restart got it back.
+       Nothing here is selectable text, so none of it is a loss. */
+    html {
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      user-select: none;
+      /* Stops the grey flash a phone paints over whatever was tapped. */
+      -webkit-tap-highlight-color: transparent;
+    }
+  </style>
+</head>
+<body>
+  <!--
+    You can customize the "flutter_bootstrap.js" script.
+    This is useful to provide a custom configuration to the Flutter loader
+    or to give the user feedback during the initialization process.
+
+    For more details:
+    * https://docs.flutter.dev/platform-integration/web/initialization
+  -->
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
