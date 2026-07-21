@@ -86040,7 +86040,7 @@ m.push(new A.bz(B.jz,A.c2("Puntos para ganar",p,p,p,B.bR,p,p),p))
 m.push(q.CA(new A.anr(),new A.ans(q),q.gkN().c,B.om))
 m.push(B.zt)
 m.push(B.UC)
-m.push(new A.bz(B.EN,A.c2("Versi\xf3n 2026-07-21 12:31",p,p,p,B.aY.bP(B.mP),p,p),p))
+m.push(new A.bz(B.EN,A.c2("Versi\xf3n 2026-07-21 12:32",p,p,p,B.aY.bP(B.mP),p,p),p))
 s=A.au([null,0],t.LO,t.S)
 r=m.length
 return A.asM(B.cj,A.tC(!0,new A.bz(B.nE,A.fE(A.c([n,A.lw(new A.fF(B.B1,new A.yA(new A.aco(!0,!0,!0,m,s),B.EY,B.aM,!1,p,p,B.mb,!1,p,p,r,B.at,p,p,B.a7,B.az,p),p),1)],o),B.bo,B.W,B.aa),p),B.ay,!0))},
